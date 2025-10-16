@@ -38,6 +38,9 @@
         <li class="nav-item">
           <a class="nav-link {{ request()->is ("galery") ? "active" : false}} mx-3" href="/galery">Galeri</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link {{ request()->is ("about") ? "active" : false}} mx-3" href="/about">About</a>
+        </li>
         </ul>
       </ul>
     </div>
